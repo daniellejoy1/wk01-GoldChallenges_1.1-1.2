@@ -8,8 +8,8 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
-
-
     for (let i= 0; i <= 10; i ++){
+        callback();
+    function callback(){
         console.log(i);
-    }
+    }}
