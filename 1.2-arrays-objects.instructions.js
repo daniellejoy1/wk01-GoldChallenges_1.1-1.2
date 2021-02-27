@@ -7,3 +7,19 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let faveMovie = {
+    nameOfMovie: 'Cry-baby',
+    runTime: '85 Min',
+    genre: 'Comedy/Musical',
+    characters: [
+            {character1: 'Cry-Baby', actor: 'Johnny Depp'},
+            {character2: 'Allison Vernon-Williams', actor: 'Amy Locane' }
+    ]
+};
+
+console.log(faveMovie.nameOfMovie);
+console.log(faveMovie.runTime);
+console.log(faveMovie.characters);
+console.log(faveMovie.characters[0].character1);
+
