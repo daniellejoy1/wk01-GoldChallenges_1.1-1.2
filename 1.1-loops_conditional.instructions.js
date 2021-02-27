@@ -8,8 +8,24 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
-    for (let i= 0; i <= 10; i ++){
+
+//step 1:
+for (let i= 0; i <= 10; i ++){
         callback();
+    //step 2:
     function callback(){
-        console.log(i);
-    }}
+    console.log(i);
+    }
+}
+
+//step 3:
+for (let x= 0; x <= 10; x ++){
+    callback();
+function callback(){
+if (x % 2 ==0) {
+    console.log('The number is even');
+}
+else {console.log('The number is odd');
+}
+}
+}
