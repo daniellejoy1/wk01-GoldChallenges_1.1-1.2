@@ -13,13 +13,18 @@ let faveMovie = {
     runTime: '85 Min',
     genre: 'Comedy/Musical',
     characters: [
-            {character1: 'Cry-Baby', actor: 'Johnny Depp'},
-            {character2: 'Allison Vernon-Williams', actor: 'Amy Locane' }
+            {character1: 'Cry-Baby', actor:  
+                {actorName:'Johnny Depp', age: '57'}
+                },
+            {character2: 'Allison Vernon-Williams', actor: 
+                {actorName: 'Amy Locane', age: '49' }
+                
+            }
     ]
 };
-
 console.log(faveMovie.nameOfMovie);
 console.log(faveMovie.runTime);
 console.log(faveMovie.characters);
 console.log(faveMovie.characters[0].character1);
+console.log(faveMovie.characters[1].actor.age)
 
