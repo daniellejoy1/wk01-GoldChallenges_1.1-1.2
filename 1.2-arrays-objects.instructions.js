@@ -13,11 +13,11 @@ let faveMovie = {
     runTime: '85 Min',
     genre: 'Comedy/Musical',
     characters: [
-            {character1: 'Cry-Baby', actor:  
-                {actorName:'Johnny Depp', age: '57'}
+            {name: 'Wade \'Cry-Baby\' Walker', age: '16', items:  
+                {item1:'Leather Jacket', item2: 'motorcycle'}
                 },
-            {character2: 'Allison Vernon-Williams', actor: 
-                {actorName: 'Amy Locane', age: '49' }
+            {name: 'Allison Vernon-Williams', age: '16', items: 
+                {item1: 'a-line dress', item2: 'microphone' }
                 
             }
     ]
@@ -25,6 +25,6 @@ let faveMovie = {
 console.log(faveMovie.nameOfMovie);
 console.log(faveMovie.runTime);
 console.log(faveMovie.characters);
-console.log(faveMovie.characters[0].character1);
-console.log(faveMovie.characters[1].actor.age)
+console.log(faveMovie.characters[0].name);
+console.log(faveMovie.characters[1].items.item2)
 
