@@ -11,13 +11,13 @@
 
 //step 1:
 
-// for (let i= 0; i <= 10; i ++){
-//         callback(i);
-// }
-//     //step 2:
-//     function callback(i){
-//     console.log(i);
-//     }
+for (let i= 0; i <= 10; i ++){
+        callback(i);
+}
+    //step 2:
+    function callback(i){
+    console.log(i);
+    }
 
 //step 3:
 
